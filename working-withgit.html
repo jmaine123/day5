@@ -1,0 +1,21 @@
+  <link rel="stylesheet" type="text/css" href="main.css">
+<h1> Working with Git</h1>
+<h3> 1. Add files to your project</h3>
+<p>This can be done via the touch command or through the interface as usual</p>
+<p> Example: <code> $touch index.html && touch main.css</code></p>
+
+<h3> 2. Add new or modified files to staging</h3>
+<p>Once we add new files or modify existing files we can tell git to track them by adding them to staging for the nect commit(think of commits as checkpoints). This will let git know what files the next checkpoint will consist of.</p>
+<p> <code>$ git add <filename></code></p>
+<p> Or</p>
+<p> <code> $ git add .</code>
+
+  <p> Your files are now on stage to be included in the next commit/checkpoint</p>
+  <h3> 3. Add a Commit and Commit Message</h3>
+
+  <p>With your changes staged, you vcan create </p>
+
+  <p> If you get an error, you may have not Iniitializedyour git repository with <code>$git init</code><br>
+  Or you bay have Initialized, but you have not yet modified any files since using them:</p>
+
+  <code>$git add < filename></code> and <code>$git commit - m "message"</code>
